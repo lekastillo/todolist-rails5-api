@@ -4,3 +4,14 @@ FactoryGirl.define do
     created_by { Faker::Number.number(10) }
   end
 end
+
+# == Schema Information
+#
+# Table name: todos
+#
+#  id         :integer          not null, primary key
+#  title      :string
+#  created_by :string
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
